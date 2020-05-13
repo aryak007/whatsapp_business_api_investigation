@@ -28,7 +28,8 @@ This repository investigates the [WhatsApp Business API](https://www.whatsapp.co
         > A Webapp node is responsible for handling API traffic like the original Webapp container.
     There could be multiple Webapp nodes and Coreapp nodes. [More information about the HA architecture](https://developers.facebook.com/docs/whatsapp/high-availability/)
 
-- The parameters I've tried during the setup (removed all sensitive information)
+- The parameters I've tried during the setup (removed or obfuscated all sensitive information)
+
 For networking stack (some are default parameters as well)
 ```
 AZs	us-east-1a,us-east-1b,us-east-1c	-
@@ -90,7 +91,7 @@ WAEntContTag	v2.27.12
     ```
     curl -d payload.json https://waEnt-lb-full-name.elb.amazonaws.com/api/control.php -k
     ```
-    A sample `payload.json` is checked in to the source code.
+    A sample `payload.json` is also checked in to the source code(values obfuscated).
 
 ## WhatsApp Business API Sandbox accounts (Partner sandbox)
 - [MessengerBird Sandbox Account](https://support.messagebird.com/hc/en-us/articles/360002109957-Getting-Started-with-the-MessageBird-WhatsApp-Sandbox) - Follow the steps to setup the sandbox account.
