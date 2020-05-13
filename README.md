@@ -88,7 +88,7 @@ WAEntContTag	v2.27.12
 - Known issues:
     - The test API provided in the AWS guide is https://load-balancer-hostname-or-ip/api/control.php".   `control.php`, in this case, isn't a valid resource and it throws an error (This issue can be fixed in future versions as well). However, the setup's correctness can be observed because the API call returns the correct version (in this case `v2.27.12`)
     ```
-    curl -d payload.json https://waEnt-LB-1987592288.us-east-1.elb.amazonaws.com/api/control.php -k
+    curl -d payload.json https://waEnt-lb-full-name.elb.amazonaws.com/api/control.php -k
     ```
     A sample `payload.json` is checked in to the source code.
 
@@ -99,7 +99,7 @@ WAEntContTag	v2.27.12
             - `support.js`
             - `verification.js`
             - `notifications.js`
-    - `messengerBird` folder consists of some of the API calls for `webhooks` as well. The Webhook used is from [Webhook.site](https://webhook.site/#!/4ed55a9a-d10e-42b0-9a42-2aa0cd6362cd/66d6134d-df79-40a7-b224-efd37314b615/1). Feel free to use my `simple_server_webhook.js` (runs on http://localhost:8080) as well.
+    - `messengerBird` folder consists of some of the API calls for `webhooks` as well. The Webhook used is from [Webhook.site](https://webhook.site/). Feel free to use my `simple_server_webhook.js` (runs on http://localhost:8080) as well.
         - `create-webhook.js` (Send a text to confirm whether the webhook is fired or not)
         - `list-webhooks.js`
         - `read-webhook.js`

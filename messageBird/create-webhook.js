@@ -6,7 +6,7 @@ var params = {
   'message.updated'
   ],
   'channelId': "<<Channel_ID>>",
-  'url': 'https://webhook.site/4ed55a9a-d10e-42b0-9a42-2aa0cd6362cd'
+  'url': 'https://webhook.site/12345' // Change it appropriately to a webhook either from https://webhook.site/ or from simple_server_webhook.js
 }
 messagebird.conversations.webhooks.create(params, function (err, response) {
   if (err) {
