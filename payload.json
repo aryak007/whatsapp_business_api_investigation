@@ -1,0 +1,13 @@
+{  
+    "payload":{
+       "set_settings": {
+         "database_engine":"MYSQL",
+         "mysql":{  
+            "hostname": "<hostname>",
+            "port": 3306,
+            "username": "<username>",
+            "password": "<password>"
+         }
+      }
+     }
+ }
