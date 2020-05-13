@@ -95,20 +95,20 @@ WAEntContTag	v2.27.12
 
 ## WhatsApp Business API Sandbox accounts (Partner sandbox)
 - [MessengerBird Sandbox Account](https://support.messagebird.com/hc/en-us/articles/360002109957-Getting-Started-with-the-MessageBird-WhatsApp-Sandbox) - Follow the steps to setup the sandbox account.
-    - `messengerBird` folder consists of the scripts to run a few pre-configured templated messages. The names of the files are the `template` types :
+    - `messengerBird` folder consists of the scripts to run a few pre-configured templated messages. Replace the `accessKey` and other authorization details. Run the  pre-configured `template messages`  :
         - Run `npm install -g messagebird` and then run the following:
-            - `support.js`
-            - `verification.js`
-            - `notifications.js`
+            - `node support.js`
+            - `node verification.js`
+            - `node notifications.js`
     - `messengerBird` folder consists of some of the API calls for `webhooks` as well. The Webhook used is from [Webhook.site](https://webhook.site/). Feel free to use my `simple_server_webhook.js` (runs on http://localhost:8080) as well.
-        - `create-webhook.js` (Send a text to confirm whether the webhook is fired or not)
-        - `list-webhooks.js`
-        - `read-webhook.js`
-        - `delete-webhook.js`
+        - `node create-webhook.js` (Send a text to confirm whether the webhook is fired or not)
+        - `node list-webhooks.js`
+        - `node read-webhook.js`
+        - `node delete-webhook.js`
 
-    - The response object formats can be compared with the [actual response object formats]() from WhatsApp Business API. In-line comments are added to these files for ease of use.
+    - The response object formats can be compared with the [actual response object formats](https://developers.facebook.com/docs/whatsapp/api/webhooks/inbound) from WhatsApp Business API. In-line comments are added to these files for ease of use.
 
 - [Twilio Sandbox Account](https://www.twilio.com/docs/whatsapp/api#twilio-sandbox-for-whatsapp) - Follow the steps to setup the sandbox account.
     - In `twilio` folder, run `npm install -g twilio`
-    - Run `send_message.js` to send a sample text.
+    - Run `node send_message.js` to send a sample text.
     - Rest is similar to `messagebird` apart from the API naming conventions.
