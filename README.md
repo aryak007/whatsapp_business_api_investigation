@@ -21,7 +21,7 @@ This repository investigates the [WhatsApp Business API](https://www.whatsapp.co
 ## WhatsApp Business API (WBA) AWS Setup
 
 - Guide - [Deploying with Amazon Web Services](https://developers.facebook.com/docs/whatsapp/aws)
-- Cloudformation templates - [Network stack](https://developers.facebook.com/docs/whatsapp/aws#network-setup) and [WBA stack](https://developers.facebook.com/docs/whatsapp/aws#whatsapp-setup)(comprises of the Coreapp, Webapp and the master)
+- Cloudformation templates - [Network stack](https://developers.facebook.com/docs/whatsapp/aws#network-setup) and [WBA stack](https://developers.facebook.com/docs/whatsapp/aws#whatsapp-setup)(comprises of the Coreapp and the Webapp)
     - Coreapp -
         > A Coreapp node is responsible for handling messaging traffic to and from WhatsApp. 
     - Webapp - 
