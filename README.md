@@ -10,7 +10,7 @@ This repository investigates the [WhatsApp Business API](https://www.whatsapp.co
     - Session based messages - If the responses are sent within 24hrs, its called session messages. Session messages include - [Text Messages](https://developers.facebook.com/docs/whatsapp/api/messages/text), [Media Messages](https://developers.facebook.com/docs/whatsapp/api/messages/media), [Group Messages](https://developers.facebook.com/docs/whatsapp/api/messages/group) and some type of messages as well like [contact and location messages](https://developers.facebook.com/docs/whatsapp/api/messages/others). There's no limit to the number of session messages that can be sent. The pricing model for session messages vary from partner to partner. [Twilio's WhatsApp API Pricing](https://www.twilio.com/whatsapp/pricing/in)
 
     - Template based messages - If the reply by WBA to the 
-client is sent after 24hrs, the message needs to be of the type [template messages](https://developers.facebook.com/docs/whatsapp/api/messages/message-templates). A template message can be of type [Media template message](https://developers.facebook.com/docs/whatsapp/api/messages/message-templates/media-message-templates) or [Interactive template Message](https://developers.facebook.com/docs/whatsapp/api/messages/message-templates/interactive-message-templates).The pricing model for template messages also vary from partner to partner. [Twilio's WhatsApp API Pricing](https://www.twilio.com/whatsapp/pricing/in). A message template needs to be pre-approved. However, it's possible to edit/add template messages. Check out the [template message guidelines](https://developers.facebook.com/docs/whatsapp/message-templates/guidelines#tips) for more information on this.
+client is sent after 24hrs, the message needs to be of the type [template messages](https://developers.facebook.com/docs/whatsapp/api/messages/message-templates). A template message can be either of the type [Media template message](https://developers.facebook.com/docs/whatsapp/api/messages/message-templates/media-message-templates) or [Interactive template Message](https://developers.facebook.com/docs/whatsapp/api/messages/message-templates/interactive-message-templates).The pricing model for template messages also vary from partner to partner. [Twilio's WhatsApp API Pricing](https://www.twilio.com/whatsapp/pricing/in). A message template needs to be pre-approved. However, it's possible to edit/add template messages. Check out the [template message guidelines](https://developers.facebook.com/docs/whatsapp/message-templates/guidelines#tips) for more information on this.
 
 
     All template messages are required to be preconfigured and created using the `Business Manager`. [More Information about this](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343)
@@ -94,6 +94,8 @@ WAEntContTag	v2.27.12
     curl -d payload.json https://waEnt-lb-full-name.elb.amazonaws.com/api/control.php -k
     ```
     A sample `payload.json` is also checked in to the source code(values obfuscated).
+    
+- Check this for [in-house deployment using Kubernetes](https://developers.facebook.com/docs/whatsapp/installation)
 
 ## WhatsApp Business API Sandbox accounts (Partner sandbox)
 - [MessengerBird Sandbox Account](https://support.messagebird.com/hc/en-us/articles/360002109957-Getting-Started-with-the-MessageBird-WhatsApp-Sandbox) - Follow the steps to setup the sandbox account.
