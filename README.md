@@ -8,9 +8,10 @@ This repository investigates the [WhatsApp Business API](https://www.whatsapp.co
 
 - Messages from WBA can be classified into two types:
     - Session based messages - If the responses are sent within 24hrs, its called session messages. Session messages include - [Text Messages](https://developers.facebook.com/docs/whatsapp/api/messages/text), [Media Messages](https://developers.facebook.com/docs/whatsapp/api/messages/media), [Group Messages](https://developers.facebook.com/docs/whatsapp/api/messages/group) and some type of messages as well like [contact and location messages]
-    (https://developers.facebook.com/docs/whatsapp/api/messages/others). There's no limit to the number of session messages that can be sent.
+    (https://developers.facebook.com/docs/whatsapp/api/messages/others). There's no limit to the number of session messages that can be sent. The pricing model for session messages vary from partner to partner. [Twilio's WhatsApp API Pricing](https://www.twilio.com/whatsapp/pricing/in)
 
-    - Template based messages - If the reply by WBA to the client is sent after 24hrs, the message needs to be of the type [template messages](https://developers.facebook.com/docs/whatsapp/api/messages/message-templates). A template message can be of type [Media template message](https://developers.facebook.com/docs/whatsapp/api/messages/message-templates/media-message-templates) or [Interactive template Message](https://developers.facebook.com/docs/whatsapp/api/messages/message-templates/interactive-message-templates). 
+    - Template based messages - If the reply by WBA to the client is sent after 24hrs, the message needs to be of the type [template messages](https://developers.facebook.com/docs/whatsapp/api/messages/message-templates). A template message can be of type [Media template message](https://developers.facebook.com/docs/whatsapp/api/messages/message-templates/media-message-templates) or [Interactive template Message](https://developers.facebook.com/docs/whatsapp/api/messages/message-templates/interactive-message-templates).The pricing model for template messages also vary from partner to partner. [Twilio's WhatsApp API Pricing](https://www.twilio.com/whatsapp/pricing/in)
+
 
     All template messages are required to be preconfigured and created using the `Business Manager`. [More Information about this](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343)
 
