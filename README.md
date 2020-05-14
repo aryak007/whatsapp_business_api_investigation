@@ -17,7 +17,8 @@ client is sent after 24hrs, the message needs to be of the type [template messag
 
     Message templates have [localization support](https://developers.facebook.com/docs/whatsapp/message-templates/localization) as well
 
-- [Official WhatsApp Business API pricing schedule](https://developers.facebook.com/docs/whatsapp/pricing/)(check for India) and [A Pricing comparison between various WhatsApp partners by Respomd.io](https://respond.io/blog/how-to-choose-a-whatsapp-partner-whatsapp-business-api-pricing/) 
+- [Official WhatsApp Business API pricing schedule](https://developers.facebook.com/docs/whatsapp/pricing/) (check for India)
+- [A Pricing comparison between various WhatsApp partners by Respomd.io](https://respond.io/blog/how-to-choose-a-whatsapp-partner-whatsapp-business-api-pricing/) 
 
 ## WhatsApp Business API (WBA) AWS Setup
 
