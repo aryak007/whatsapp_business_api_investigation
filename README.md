@@ -20,6 +20,8 @@ client is sent after 24hrs, the message needs to be of the type [template messag
     All template messages are required to be preconfigured and created using the `Business Manager`. [More Information about this](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343)
 
     Message templates have [localization support](https://developers.facebook.com/docs/whatsapp/message-templates/localization) as well
+    
+- **No out of the box** support for NLP/chatbots by WhatsApp. ([Some more information about this](https://chatbotslife.com/overview-of-the-whatsapp-business-api-and-how-to-leverage-it-1477029c0be0))
 
 - [Official WhatsApp Business API pricing schedule](https://developers.facebook.com/docs/whatsapp/pricing/) (check for India)
 - [A Pricing comparison between various WhatsApp partners by Respomd.io](https://respond.io/blog/how-to-choose-a-whatsapp-partner-whatsapp-business-api-pricing/) 
