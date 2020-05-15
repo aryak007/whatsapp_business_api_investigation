@@ -24,6 +24,8 @@ client is sent after 24hrs, the message needs to be of the type [template messag
 - [Official WhatsApp Business API pricing schedule](https://developers.facebook.com/docs/whatsapp/pricing/) (check for India)
 - [A Pricing comparison between various WhatsApp partners by Respomd.io](https://respond.io/blog/how-to-choose-a-whatsapp-partner-whatsapp-business-api-pricing/) 
 
+- [WhatsApp Business API FAQ](https://developers.facebook.com/docs/whatsapp/faq/)
+
 ## WhatsApp Business API (WBA) AWS Setup
 
 - Guide - [Deploying with Amazon Web Services](https://developers.facebook.com/docs/whatsapp/aws)
