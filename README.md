@@ -6,6 +6,10 @@ This repository investigates the [WhatsApp Business API](https://www.whatsapp.co
 
 - User opt-ins are required to start recieving messages from WBA ([more information](https://developers.facebook.com/docs/whatsapp/guides/opt-in))
 
+- Catalog feature support present in WhatsApp Business but there's no API present in the [WBA reference guide](https://developers.facebook.com/docs/whatsapp/api/reference). I've posted [a question in the FB Developer Forum]((https://developers.facebook.com/community/threads/169810994424157/?post_id=169810997757490)) to track this. 
+
+- Dosn't have any **out-of-the-box support** for [language translation](https://developers.facebook.com/docs/whatsapp/message-templates/creation#translations). 
+
 - Messages from WBA can be classified into two types:
     - Session based messages - If the responses are sent within 24hrs, its called session messages. Session messages include - [Text Messages](https://developers.facebook.com/docs/whatsapp/api/messages/text), [Media Messages](https://developers.facebook.com/docs/whatsapp/api/messages/media), [Group Messages](https://developers.facebook.com/docs/whatsapp/api/messages/group) and some type of messages as well like [contact and location messages](https://developers.facebook.com/docs/whatsapp/api/messages/others). There's no limit to the number of session messages that can be sent. The pricing model for session messages vary from partner to partner. [Twilio's WhatsApp API Pricing](https://www.twilio.com/whatsapp/pricing/in)
 
