@@ -106,7 +106,7 @@ WAEntContTag	v2.27.12
 - Check this for [in-house deployment using Kubernetes](https://developers.facebook.com/docs/whatsapp/installation)
 
 ## WhatsApp Business API Sandbox accounts (Partner sandbox)
-- [MessengerBird Sandbox Account](https://support.messagebird.com/hc/en-us/articles/360002109957-Getting-Started-with-the-MessageBird-WhatsApp-Sandbox) - Follow the steps to setup the sandbox account.
+- [MessageBird Sandbox Account](https://support.messagebird.com/hc/en-us/articles/360002109957-Getting-Started-with-the-MessageBird-WhatsApp-Sandbox) - Follow the steps to setup the sandbox account.
     - `messengerBird` folder consists of the scripts to run a few pre-configured templated messages. Replace the `accessKey` and other authorization details. Run the  pre-configured `template messages`  :
         - Run `npm install -g messagebird` and then run the following:
             - `node support.js`
