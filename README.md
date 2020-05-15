@@ -6,9 +6,7 @@ This repository investigates the [WhatsApp Business API](https://www.whatsapp.co
 
 - User opt-ins are required to start recieving messages from WBA ([more information](https://developers.facebook.com/docs/whatsapp/guides/opt-in))
 
-- Catalog feature support present in WhatsApp Business but there's no API reference present in the [WBA reference guide](https://developers.facebook.com/docs/whatsapp/api/reference). Although, its listed under **conversational commerce** in the [Catalog batch API](https://developers.facebook.com/docs/commerce-platform/catalog/batch-api) is present under [marketing API](https://developers.facebook.com/docs/marketing-api/catalog)
-
-I've posted [a question in the FB Developer Forum](https://developers.facebook.com/community/threads/169810994424157/?post_id=169810997757490) to track this. 
+- Catalog feature support present in WhatsApp Business but there's no API reference present in the [WBA reference guide](https://developers.facebook.com/docs/whatsapp/api/reference). Although, its listed under **conversational commerce** in the [Catalog batch API](https://developers.facebook.com/docs/commerce-platform/catalog/batch-api) is present under [marketing API](https://developers.facebook.com/docs/marketing-api/catalog). I've posted [a question in the FB Developer Forum](https://developers.facebook.com/community/threads/169810994424157/?post_id=169810997757490) to track this. 
 
 - Dosn't have any **out-of-the-box support** for [language translation](https://developers.facebook.com/docs/whatsapp/message-templates/creation#translations). 
 
